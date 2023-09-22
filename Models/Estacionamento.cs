@@ -16,13 +16,6 @@ namespace DESAFIOESTACIONAMENTO.Models
             PrecoPorHora = precoPorHora;
         }
 
-        public double GetPrecoInicial() {
-            return PrecoInicial;
-        }
-        public double GetPrecoPorHora() {
-            return PrecoPorHora;
-        }
-
         public void AddVeiculo(string placa) {
             Veiculos ??= new();
             // if(Carros == null) {
