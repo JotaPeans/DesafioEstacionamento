@@ -34,7 +34,7 @@ namespace DESAFIOESTACIONAMENTO.Models
         public void RemoveVeiculo(string placa) {
             Veiculo? carroEstacionado = Veiculos?.Find(carro => carro.Placa == placa);
             if(carroEstacionado == null) {
-                Console.WriteLine("Carro com essa placa não existe");
+                Console.WriteLine("Veiculo com essa placa não existe");
                 return;
             }
 
